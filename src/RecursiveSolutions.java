@@ -17,4 +17,11 @@ public class RecursiveSolutions {
         }
         return (double) sum / arr.length; //Возвращаем среднее значение
     }
+    //Проверяем, простое ли число
+    public static String isPrime(int n, int i) {
+        if (n <= 2) return (n == 2) ? "Prime" : "Composite"; //Если 2 простое, если меньше нет
+        if (n % i == 0) return "Composite"; //Если делится на i составное
+        if (i * i > n) return "Prime"; // Eсли проверили все возможные делители простое
+        return isPrime(n, i + 1); //Проверяем следующее число
+    }
 }
