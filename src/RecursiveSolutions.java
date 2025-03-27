@@ -9,5 +9,12 @@ public class RecursiveSolutions {
         }
         return min;
     }
-
+    //Функция считает среднее значение массива
+    public static double findAvg(int[] arr) {
+        int sum = 0; //Переменная для суммы элементов
+        for (int num : arr) {
+            sum += num; //Складываем все числа
+        }
+        return (double) sum / arr.length; //Возвращаем среднее значение
+    }
 }
