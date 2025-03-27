@@ -11,7 +11,9 @@ public class Main {
 //        }
 //        System.out.println("Minimum: " + RecursiveSolutions.FindMin(arr));
 //       System.out.println("Average: " + RecursiveSolutions.findAvg(arr));
-        int num = scanner.nextInt();
-        System.out.println("Is prime: " + RecursiveSolutions.isPrime(num,2));
+//        int num = scanner.nextInt();
+//        System.out.println("Is prime: " + RecursiveSolutions.isPrime(num,2));
+        int factNum = scanner.nextInt();
+        System.out.println("Factorial:" + RecursiveSolutions.factorial(factNum));
     }
 }

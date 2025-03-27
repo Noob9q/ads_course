@@ -24,4 +24,8 @@ public class RecursiveSolutions {
         if (i * i > n) return "Prime"; // Eсли проверили все возможные делители простое
         return isPrime(n, i + 1); //Проверяем следующее число
     }
+    //Функция считает факториал через рекурсию
+    public static int factorial(int n) {
+        return (n==0) ? 1 : n * factorial(n - 1); //Если0 возвращаем 1,иначе n * (n-1)!
+    }
 }
