@@ -33,5 +33,12 @@ public class RecursiveSolutions {
         if (n == 0 || n==1) return n;//Если п=1 - 0, возвращается п
         return fibonacci(n - 1) + fibonacci(n - 2);
     }
-
+    //Just Power function
+    public static int PowerNum(int[] arr) {
+        int a=arr[0];
+        for(int i=1;i<arr[1];i++){
+            a=a*arr[0];
+        }
+        return a;
+    }
 }

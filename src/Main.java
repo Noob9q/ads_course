@@ -15,7 +15,13 @@ public class Main {
 //        System.out.println("Is prime: " + RecursiveSolutions.isPrime(num,2));
 //        int factNum = scanner.nextInt();
 //        System.out.println("Factorial:" + RecursiveSolutions.factorial(factNum));
-        int FibNum = scanner.nextInt();
-        System.out.println(RecursiveSolutions.fibonacci(FibNum));
+//        int FibNum = scanner.nextInt();
+//        System.out.println(RecursiveSolutions.fibonacci(FibNum));
+        int[] arr = new int[2];
+        for (int i=0;i<2;i++){
+            arr[i] = scanner.nextInt();
+        }
+        System.out.println(RecursiveSolutions.
+                PowerNum(arr));
     }
 }
