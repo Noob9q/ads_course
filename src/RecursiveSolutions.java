@@ -28,4 +28,10 @@ public class RecursiveSolutions {
     public static int factorial(int n) {
         return (n==0) ? 1 : n * factorial(n - 1); //Если0 возвращаем 1,иначе n * (n-1)!
     }
+    //Решение фибоначчи, использование рекурсий
+    public static int fibonacci(int n) {
+        if (n == 0 || n==1) return n;//Если п=1 - 0, возвращается п
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+
 }
