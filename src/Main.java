@@ -30,6 +30,6 @@ public class Main {
             b[i]=scanner.nextInt();
         }
         System.out.println(Arrays.toString(RecursiveSolutions.RevList(b, a)));
-
+    //1
     }
 }
