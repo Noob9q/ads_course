@@ -24,12 +24,13 @@ public class Main {
 //        }
 //        System.out.println(RecursiveSolutions.
 //                PowerNum(arr));
-        int a = scanner.nextInt();
-        int[] b=new int[a];
-        for(int i=0;i<a;i++){
-            b[i]=scanner.nextInt();
-        }
-        System.out.println(Arrays.toString(RecursiveSolutions.RevList(b, a)));
-    //1
+//        int a = scanner.nextInt();
+//        int[] b=new int[a];
+//        for(int i=0;i<a;i++){
+//            b[i]=scanner.nextInt();
+//        }
+//        System.out.println(Arrays.toString(RecursiveSolutions.RevList(b, a)));
+        String str = scanner.nextLine();
+        System.out.println("Is all digits: " + RecursiveSolutions.Digits(str));
     }
 }

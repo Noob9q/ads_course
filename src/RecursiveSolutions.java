@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class RecursiveSolutions {
     public static int FindMin(int[] arr) {
         //Функция ищет минимальное число в массиве
@@ -49,4 +48,7 @@ public class RecursiveSolutions {
         }
         return total;
     }//1
+    public static String Digits(String s) {
+        return s.matches("\\d+") ? "Yes" : "No";
+    }
 }
