@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class RecursiveSolutions {
     public static int FindMin(int[] arr) {
         //Функция ищет минимальное число в массиве
@@ -40,5 +41,12 @@ public class RecursiveSolutions {
             a=a*arr[0];
         }
         return a;
+    }
+    public static int[] RevList(int[] b, int a) {
+        int[] total = new int[a];
+        for (int i = 0; i < a; i++) {
+            total[a - 1 - i] = b[i];
+        }
+        return total;
     }
 }
