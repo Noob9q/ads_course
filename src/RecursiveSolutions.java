@@ -55,4 +55,7 @@ public class RecursiveSolutions {
         if (k == 0 || k == n) return 1; //Если k=0 или k=n, то возвращаем 1
         return binomialCof(n - 1, k - 1) + binomialCof(n - 1, k);
     }
+    public static int gcd(int a, int b) {
+        return (b == 0) ? a : gcd(b, a % b); //Если b=0,возвращаем a, если нет то рекурсивно вызываем
+    }
 }

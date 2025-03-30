@@ -32,8 +32,11 @@ public class Main {
 //        System.out.println(Arrays.toString(RecursiveSolutions.RevList(b, a)));
 //        String str = scanner.nextLine();
 //        System.out.println("Is all digits: " + RecursiveSolutions.Digits(str));
+//        int a = scanner.nextInt();
+//        int b = scanner.nextInt();
+//        System.out.println(RecursiveSolutions.binomialCof(a, b));
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        System.out.println(RecursiveSolutions.binomialCof(a, b));
-    }
+        System.out.println("GCD: " + RecursiveSolutions.gcd(a, b));
+     }
 }
