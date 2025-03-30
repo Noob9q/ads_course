@@ -30,7 +30,10 @@ public class Main {
 //            b[i]=scanner.nextInt();
 //        }
 //        System.out.println(Arrays.toString(RecursiveSolutions.RevList(b, a)));
-        String str = scanner.nextLine();
-        System.out.println("Is all digits: " + RecursiveSolutions.Digits(str));
+//        String str = scanner.nextLine();
+//        System.out.println("Is all digits: " + RecursiveSolutions.Digits(str));
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        System.out.println(RecursiveSolutions.binomialCof(a, b));
     }
 }
